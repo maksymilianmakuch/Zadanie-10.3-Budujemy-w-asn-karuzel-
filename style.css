@@ -1,0 +1,24 @@
+
+#carousel {
+	padding: 0;
+	border: 1px;
+	border-style: solid;
+	border-color: red;
+	width: 400px;
+	height: 400px;
+	overflow: auto;
+	margin: 0 auto;
+}
+ul {
+	
+	padding: 0;
+	margin: 0;
+	width: 2000px;
+}
+li {
+  	list-style-type: none;
+  	float: left;
+}
+li > img {
+	display: block;
+}

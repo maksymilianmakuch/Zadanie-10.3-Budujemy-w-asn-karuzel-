@@ -6,7 +6,7 @@
 	border-color: red;
 	width: 400px;
 	height: 400px;
-	overflow: auto;
+	overflow: hidden;
 	margin: 0 auto;
 }
 ul {

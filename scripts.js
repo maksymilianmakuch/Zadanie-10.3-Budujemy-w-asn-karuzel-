@@ -1,6 +1,6 @@
 $(function(){
 	var carouselList = $("#carousel ul");
-	carouselList.setInterval(changeSlide, 3000);
+	setInterval(changeSlide, 3000);
 
 	function changeSlide() {
 		carouselList.animate({'marginLeft':-400}, 500, moveFirstSlide);
